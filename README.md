@@ -34,3 +34,15 @@ as some of articles has multiple authors and was unable to extract them.
 
 note: all the tasks were successfully completed but was unable to run code on aws as my account is
 facing some issues with verification.
+
+
+
+
+#tasks completed are-
+1. scraped data from theverge.com
+2. format was id, url, headline, author, date
+3. saved data in csv file with name {date}_verge.csv (2 files are included in repo)
+4. saved same data in SQLite DB and in table id was set to primary key.
+5. removed all duplicate values from db as all the articles will not refresh everyday so duplicate values will be there .
+6. code scheduled for everyday on machine.
+7. unable to run code on AWS as it is having some authentication issues with my account.
